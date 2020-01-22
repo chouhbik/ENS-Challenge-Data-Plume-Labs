@@ -13,7 +13,7 @@ In order to provide air quality forecasts, Plume Labs has built a unique databas
 
 2- Readings at the closest monitoring stations The accuracy obtained by such a prediction model is a very good indicator of how an air quality prediction model performs in locations where there is no monitoring station
 
-<img src="https://plumelabs.files.wordpress.com/2018/12/PRESS_Flow_and_App.jpg" align="middle" height="200">
+<img src="https://plumelabs.files.wordpress.com/2018/12/PRESS_Flow_and_App.jpg" align="middle" height="400">
 
 ## Data description
 ### Input variables
