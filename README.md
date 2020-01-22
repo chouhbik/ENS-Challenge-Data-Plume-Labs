@@ -1,6 +1,7 @@
 # Spatiotemporal PM10 concentration prediction
 ## by Plume Labs
 
+<img src = "https://plumelabs.com/plume-labs-logo.png" align="middle">
 ## Challenge context
 Plume Labs is a technology company providing air quality live data and forecasts to urban consumers and businesses. Our mobile app, the Plume Air Report, provides air quality levels around the world to consumers. Our personal air quality tracker Flow senses pollutants around you to help you avoid them at home and on the go – and crowdsource highly valuable hyperlocal maps in the process. Our global atmospheric pollution API gives businesses and academic teams an access to our unique AI-powered air quality forecasts data platform. Plume Labs is an MIT/Stanford start-up with a team of 25 in New York and Paris and raised $4.5M in seed funding to date.
 
@@ -40,3 +41,6 @@ Only the stations forming the training dataset are used in this step. Some value
 
 ### Output variable
 **The PM10 reading y.**
+
+## Benchmark description
+We propose a benchmark where the PM10 reading of a monitoring station is predicted using a weighted average of the readings provided by the stations nearby at the same time, with weights inversely proportional to the distance to the station.
